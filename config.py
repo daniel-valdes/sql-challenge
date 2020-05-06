@@ -1,0 +1,2 @@
+db = 'postgres'
+pw = 'postgres'
