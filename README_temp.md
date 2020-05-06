@@ -11,7 +11,7 @@ It is a beautiful spring day, and it is two weeks since you have been hired as a
 
 2. Data Engineering: Create a table schema for each of the six CSV tables. Create the tables in PostgreSQL.
 
-3. Data Analysis: Answer the provided research
+3. Data Analysis: Answer the provided research questions.
 
 **Tools Used:** PostgreSQL, Python, MatplotLib, Excel
 
@@ -26,7 +26,18 @@ The modeling process is an intuitive process that helps us gain a better underst
 
 #### Data Engineering
 
-With our diagram complete we can move on the creating the tables in PostgreSQL.
+With our diagram complete we can move on the creating the tables in PostgreSQL. In the user interface, we design queries that follow a general structure: 
+```
+CREATE TABLE employees(
+	employee_no INT PRIMARY KEY,
+	birth_date DATE,
+	first_name VARCHAR(255),
+	last_name VARCHAR(255),
+	gender VARCHAR(255),
+	hire_date DATE
+);
+```
+With our tables created we can import the csv data.
 
 #### Data Analysis
 
