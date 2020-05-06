@@ -1,6 +1,6 @@
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
-![sql.png](sql.png)
+![sql.png](figures/sql.png)
 
 
 ## Background
@@ -18,7 +18,7 @@ It is a beautiful spring day, and it is two weeks since you have been hired as a
 
 #### Data Modeling
 
-![DB-design](QuickDBD-export.png)
+![DB-design](figures/dbd.png)
 
 Database ERD diagram was created using .[http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com)
 The modeling process is an intuitive process that helps us gain a better understanding of our database. In this step we identify primary and foreign keys, define datatypes, and determine relationships. For some tables, like with the *Employees* and *Departments* tables, this is simple since each record is unique and has a numeric ID. For other it is more nuanced and requires the creation of composite keys. 
